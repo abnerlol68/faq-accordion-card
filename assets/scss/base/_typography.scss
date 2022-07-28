@@ -1,0 +1,38 @@
+@use '../utils';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: utils.$very-dark-desaturated-blue;
+  font-family: utils.$font;
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 3.1rem;
+  margin: 0 0 2.5rem;
+}
+
+label {
+  font-size: 1.6rem;
+}
+
+label:hover {
+  color: utils.$soft-red;
+}
+
+@media (max-width: 1100px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 3.4rem;
+  }
+
+  label {
+    font-size: 1.4rem;
+  }
+}
